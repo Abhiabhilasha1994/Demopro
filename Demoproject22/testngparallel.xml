@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="5"   parallel="tests">
+  <test thread-count="5" name="Test">
+ 
+   <parameter name="Browser" value="Chrome"></parameter>
+<parameter name="Url" value="https://qalegend.com/restaurant/"></parameter>
+
+    <classes>
+      <class name="Testngpackage.Logintest"/>
+      <class name="Testngpackage.Producttest"/>
+      <class name="Testngpackage.Storetest"/>
+       <class name="Testngpackage.Waiterstest"/>
+       <class name="Testngpackage.Customerstest"/>
+         <class name="Testngpackage.Suppliertest"/>
+          <class name="Testngpackage.Expensetest"/>
+           <class name="Testngpackage.Salestest"/>
+            <class name="Testngpackage.Categorytest"/>
+             <class name="Testngpackage.Settingstest"/>
+               
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test2">
+ 
+   <parameter name="Browser" value="firefox"></parameter>
+<parameter name="Url" value="https://qalegend.com/restaurant/"></parameter>
+
+    <classes>
+      <class name="Testngpackage.Logintest"/>
+      <class name="Testngpackage.Producttest"/>
+      <class name="Testngpackage.Storetest"/>
+       <class name="Testngpackage.Waiterstest"/>
+       <class name="Testngpackage.Customerstest"/>
+         <class name="Testngpackage.Suppliertest"/>
+          <class name="Testngpackage.Expensetest"/>
+           <class name="Testngpackage.Salestest"/>
+            <class name="Testngpackage.Categorytest"/>
+             <class name="Testngpackage.Settingstest"/>
+               
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

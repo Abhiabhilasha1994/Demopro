@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="31" passed="28" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T10:09:46 IST" name="Suite" finished-at="2022-09-21T10:17:53 IST" duration-ms="486736">
+    <groups>
+      <group name="functional">
+        <method signature="Categorytest.categorydetails()[pri:28, instance:Testngpackage.Categorytest@6aba2b86]" name="categorydetails" class="Testngpackage.Categorytest"/>
+        <method signature="Categorytest.categorypages()[pri:27, instance:Testngpackage.Categorytest@6aba2b86]" name="categorypages" class="Testngpackage.Categorytest"/>
+        <method signature="Categorytest.categorysearch()[pri:29, instance:Testngpackage.Categorytest@6aba2b86]" name="categorysearch" class="Testngpackage.Categorytest"/>
+        <method signature="Customerstest.addcustomer()[pri:17, instance:Testngpackage.Customerstest@8dbdac1]" name="addcustomer" class="Testngpackage.Customerstest"/>
+        <method signature="Customerstest.customersdetail()[pri:16, instance:Testngpackage.Customerstest@8dbdac1]" name="customersdetail" class="Testngpackage.Customerstest"/>
+        <method signature="Customerstest.searchcustomer()[pri:18, instance:Testngpackage.Customerstest@8dbdac1]" name="searchcustomer" class="Testngpackage.Customerstest"/>
+        <method signature="Expensetest.expensepages()[pri:22, instance:Testngpackage.Expensetest@71809907]" name="expensepages" class="Testngpackage.Expensetest"/>
+        <method signature="Expensetest.expensepagesdetail()[pri:23, instance:Testngpackage.Expensetest@71809907]" name="expensepagesdetail" class="Testngpackage.Expensetest"/>
+        <method signature="Expensetest.searchfile()[pri:25, instance:Testngpackage.Expensetest@71809907]" name="searchfile" class="Testngpackage.Expensetest"/>
+        <method signature="Logintest.invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:Testngpackage.Logintest@42e99e4a]" name="invalidlogin" class="Testngpackage.Logintest"/>
+        <method signature="Logintest.verifylogin()[pri:2, instance:Testngpackage.Logintest@42e99e4a]" name="verifylogin" class="Testngpackage.Logintest"/>
+        <method signature="Producttest.addproduct()[pri:4, instance:Testngpackage.Producttest@6dc17b83]" name="addproduct" class="Testngpackage.Producttest"/>
+        <method signature="Producttest.dropdownpage()[pri:5, instance:Testngpackage.Producttest@6dc17b83]" name="dropdownpage" class="Testngpackage.Producttest"/>
+        <method signature="Producttest.productpage()[pri:3, instance:Testngpackage.Producttest@6dc17b83]" name="productpage" class="Testngpackage.Producttest"/>
+        <method signature="Producttest.searchpage()[pri:8, instance:Testngpackage.Producttest@6dc17b83]" name="searchpage" class="Testngpackage.Producttest"/>
+        <method signature="Producttest.stockpage()[pri:7, instance:Testngpackage.Producttest@6dc17b83]" name="stockpage" class="Testngpackage.Producttest"/>
+        <method signature="Salestest.salespagedetail()[pri:26, instance:Testngpackage.Salestest@3ce1e309]" name="salespagedetail" class="Testngpackage.Salestest"/>
+        <method signature="Settingstest.settingslogo()[pri:30, instance:Testngpackage.Settingstest@158da8e]" name="settingslogo" class="Testngpackage.Settingstest"/>
+        <method signature="Settingstest.settingslogodetails()[pri:31, instance:Testngpackage.Settingstest@158da8e]" name="settingslogodetails" class="Testngpackage.Settingstest"/>
+        <method signature="Storetest.addstore()[pri:9, instance:Testngpackage.Storetest@5e0826e7]" name="addstore" class="Testngpackage.Storetest"/>
+        <method signature="Storetest.searchdetail()[pri:11, instance:Testngpackage.Storetest@5e0826e7]" name="searchdetail" class="Testngpackage.Storetest"/>
+        <method signature="Storetest.storedetail()[pri:10, instance:Testngpackage.Storetest@5e0826e7]" name="storedetail" class="Testngpackage.Storetest"/>
+        <method signature="Suppliertest.addsupplierdetail()[pri:20, instance:Testngpackage.Suppliertest@6e20b53a]" name="addsupplierdetail" class="Testngpackage.Suppliertest"/>
+        <method signature="Suppliertest.searchsupplier()[pri:21, instance:Testngpackage.Suppliertest@6e20b53a]" name="searchsupplier" class="Testngpackage.Suppliertest"/>
+        <method signature="Suppliertest.supplierpage()[pri:19, instance:Testngpackage.Suppliertest@6e20b53a]" name="supplierpage" class="Testngpackage.Suppliertest"/>
+        <method signature="Waiterstest.addwaiters()[pri:13, instance:Testngpackage.Waiterstest@32eff876]" name="addwaiters" class="Testngpackage.Waiterstest"/>
+        <method signature="Waiterstest.dropdown()[pri:14, instance:Testngpackage.Waiterstest@32eff876]" name="dropdown" class="Testngpackage.Waiterstest"/>
+        <method signature="Waiterstest.searchoption()[pri:15, instance:Testngpackage.Waiterstest@32eff876]" name="searchoption" class="Testngpackage.Waiterstest"/>
+        <method signature="Waiterstest.waitersdetail()[pri:12, instance:Testngpackage.Waiterstest@32eff876]" name="waitersdetail" class="Testngpackage.Waiterstest"/>
+      </group> <!-- functional -->
+    </groups>
+    <test started-at="2022-09-21T10:09:46 IST" name="Test" finished-at="2022-09-21T10:17:53 IST" duration-ms="486736">
+      <class name="Testngpackage.Waiterstest">
+        <test-method signature="waitersdetail()[pri:12, instance:Testngpackage.Waiterstest@32eff876]" started-at="2022-09-21T10:12:51 IST" name="waitersdetail" finished-at="2022-09-21T10:13:11 IST" duration-ms="20010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitersdetail -->
+        <test-method signature="addwaiters()[pri:13, instance:Testngpackage.Waiterstest@32eff876]" started-at="2022-09-21T10:13:11 IST" name="addwaiters" finished-at="2022-09-21T10:13:23 IST" duration-ms="12319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addwaiters -->
+        <test-method signature="dropdown()[pri:14, instance:Testngpackage.Waiterstest@32eff876]" started-at="2022-09-21T10:13:23 IST" name="dropdown" finished-at="2022-09-21T10:13:34 IST" duration-ms="10810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method signature="searchoption()[pri:15, instance:Testngpackage.Waiterstest@32eff876]" started-at="2022-09-21T10:13:34 IST" name="searchoption" finished-at="2022-09-21T10:13:43 IST" duration-ms="9247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchoption -->
+      </class> <!-- Testngpackage.Waiterstest -->
+      <class name="Testngpackage.Storetest">
+        <test-method signature="addstore()[pri:9, instance:Testngpackage.Storetest@5e0826e7]" started-at="2022-09-21T10:12:10 IST" name="addstore" finished-at="2022-09-21T10:12:21 IST" duration-ms="10970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addstore -->
+        <test-method signature="storedetail()[pri:10, instance:Testngpackage.Storetest@5e0826e7]" started-at="2022-09-21T10:12:21 IST" name="storedetail" finished-at="2022-09-21T10:12:41 IST" duration-ms="20704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storedetail -->
+        <test-method signature="searchdetail()[pri:11, instance:Testngpackage.Storetest@5e0826e7]" started-at="2022-09-21T10:12:41 IST" name="searchdetail" finished-at="2022-09-21T10:12:51 IST" duration-ms="9225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchdetail -->
+      </class> <!-- Testngpackage.Storetest -->
+      <class name="Testngpackage.Settingstest">
+        <test-method signature="settingslogo()[pri:30, instance:Testngpackage.Settingstest@158da8e]" started-at="2022-09-21T10:17:18 IST" name="settingslogo" finished-at="2022-09-21T10:17:31 IST" duration-ms="13013" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: Rupee
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DES8B8NC', ip: '192.168.35.42', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Rupee
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DES8B8NC', ip: '192.168.35.42', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+at PageElement.Settingpage.detailsdrop(Settingpage.java:46)
+at Testngpackage.Settingstest.settingslogo(Settingstest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingslogo -->
+        <test-method signature="settingslogodetails()[pri:31, instance:Testngpackage.Settingstest@158da8e]" started-at="2022-09-21T10:17:31 IST" name="settingslogodetails" finished-at="2022-09-21T10:17:53 IST" duration-ms="21789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingslogodetails -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testngpackage.Settingstest@158da8e]" started-at="2022-09-21T10:17:53 IST" name="afterTest" finished-at="2022-09-21T10:17:53 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testngpackage.Settingstest -->
+      <class name="Testngpackage.Customerstest">
+        <test-method signature="customersdetail()[pri:16, instance:Testngpackage.Customerstest@8dbdac1]" started-at="2022-09-21T10:13:43 IST" name="customersdetail" finished-at="2022-09-21T10:14:00 IST" duration-ms="16651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersdetail -->
+        <test-method signature="addcustomer()[pri:17, instance:Testngpackage.Customerstest@8dbdac1]" started-at="2022-09-21T10:14:00 IST" name="addcustomer" finished-at="2022-09-21T10:14:20 IST" duration-ms="20479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+        <test-method signature="searchcustomer()[pri:18, instance:Testngpackage.Customerstest@8dbdac1]" started-at="2022-09-21T10:14:20 IST" name="searchcustomer" finished-at="2022-09-21T10:14:29 IST" duration-ms="9157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcustomer -->
+      </class> <!-- Testngpackage.Customerstest -->
+      <class name="Testngpackage.Salestest">
+        <test-method signature="salespagedetail()[pri:26, instance:Testngpackage.Salestest@3ce1e309]" started-at="2022-09-21T10:16:06 IST" name="salespagedetail" finished-at="2022-09-21T10:16:28 IST" duration-ms="22479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salespagedetail -->
+      </class> <!-- Testngpackage.Salestest -->
+      <class name="Testngpackage.Producttest">
+        <test-method signature="productpage()[pri:3, instance:Testngpackage.Producttest@6dc17b83]" started-at="2022-09-21T10:10:34 IST" name="productpage" finished-at="2022-09-21T10:10:56 IST" duration-ms="21770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productpage -->
+        <test-method signature="addproduct()[pri:4, instance:Testngpackage.Producttest@6dc17b83]" started-at="2022-09-21T10:10:56 IST" name="addproduct" finished-at="2022-09-21T10:11:21 IST" duration-ms="24691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="dropdownpage()[pri:5, instance:Testngpackage.Producttest@6dc17b83]" started-at="2022-09-21T10:11:21 IST" name="dropdownpage" finished-at="2022-09-21T10:11:42 IST" duration-ms="21566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownpage -->
+        <test-method signature="stockpage()[pri:7, instance:Testngpackage.Producttest@6dc17b83]" started-at="2022-09-21T10:11:42 IST" name="stockpage" finished-at="2022-09-21T10:12:01 IST" duration-ms="18442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stockpage -->
+        <test-method signature="searchpage()[pri:8, instance:Testngpackage.Producttest@6dc17b83]" started-at="2022-09-21T10:12:01 IST" name="searchpage" finished-at="2022-09-21T10:12:10 IST" duration-ms="9214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpage -->
+      </class> <!-- Testngpackage.Producttest -->
+      <class name="Testngpackage.Logintest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:Testngpackage.Logintest@42e99e4a]" started-at="2022-09-21T10:09:46 IST" name="beforeTest" finished-at="2022-09-21T10:09:52 IST" duration-ms="5776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qalegend.com/restaurant/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:Testngpackage.Logintest@42e99e4a]" started-at="2022-09-21T10:09:52 IST" name="invalidlogin" data-provider="Search Provider" finished-at="2022-09-21T10:10:11 IST" duration-ms="18818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method signature="verifylogin()[pri:2, instance:Testngpackage.Logintest@42e99e4a]" started-at="2022-09-21T10:10:11 IST" name="verifylogin" finished-at="2022-09-21T10:10:34 IST" duration-ms="23201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+      </class> <!-- Testngpackage.Logintest -->
+      <class name="Testngpackage.Expensetest">
+        <test-method signature="expensepages()[pri:22, instance:Testngpackage.Expensetest@71809907]" started-at="2022-09-21T10:15:19 IST" name="expensepages" finished-at="2022-09-21T10:15:35 IST" duration-ms="16113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expensepages -->
+        <test-method signature="expensepagesdetail()[pri:23, instance:Testngpackage.Expensetest@71809907]" started-at="2022-09-21T10:15:35 IST" name="expensepagesdetail" finished-at="2022-09-21T10:15:50 IST" duration-ms="15397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expensepagesdetail -->
+        <test-method signature="searchfile()[pri:25, instance:Testngpackage.Expensetest@71809907]" started-at="2022-09-21T10:15:50 IST" name="searchfile" finished-at="2022-09-21T10:16:06 IST" duration-ms="15287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchfile -->
+      </class> <!-- Testngpackage.Expensetest -->
+      <class name="Testngpackage.Suppliertest">
+        <test-method signature="supplierpage()[pri:19, instance:Testngpackage.Suppliertest@6e20b53a]" started-at="2022-09-21T10:14:29 IST" name="supplierpage" finished-at="2022-09-21T10:14:49 IST" duration-ms="19267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supplierpage -->
+        <test-method signature="addsupplierdetail()[pri:20, instance:Testngpackage.Suppliertest@6e20b53a]" started-at="2022-09-21T10:14:49 IST" name="addsupplierdetail" finished-at="2022-09-21T10:15:10 IST" duration-ms="20934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addsupplierdetail -->
+        <test-method signature="searchsupplier()[pri:21, instance:Testngpackage.Suppliertest@6e20b53a]" started-at="2022-09-21T10:15:10 IST" name="searchsupplier" finished-at="2022-09-21T10:15:19 IST" duration-ms="9169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchsupplier -->
+      </class> <!-- Testngpackage.Suppliertest -->
+      <class name="Testngpackage.Categorytest">
+        <test-method signature="categorypages()[pri:27, instance:Testngpackage.Categorytest@6aba2b86]" started-at="2022-09-21T10:16:28 IST" name="categorypages" finished-at="2022-09-21T10:16:40 IST" duration-ms="12402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorypages -->
+        <test-method signature="categorydetails()[pri:28, instance:Testngpackage.Categorytest@6aba2b86]" started-at="2022-09-21T10:16:40 IST" name="categorydetails" finished-at="2022-09-21T10:17:03 IST" duration-ms="22034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorydetails -->
+        <test-method signature="categorysearch()[pri:29, instance:Testngpackage.Categorytest@6aba2b86]" started-at="2022-09-21T10:17:03 IST" name="categorysearch" finished-at="2022-09-21T10:17:18 IST" duration-ms="15299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorysearch -->
+      </class> <!-- Testngpackage.Categorytest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
